@@ -1,0 +1,22 @@
+{
+  "name": "qcyblm.github.io",
+  "version": "1.0.0",
+  "description": "一位静态网站设计爱好者",
+  "main": "index.js",
+  "repository": "git@github.com:qcyblm/qcyblm.github.io.git",
+  "author": "qcyblm",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev src",
+    "docs:build": "vuepress build src",
+    "deploy": "bash deploy.sh"
+  },
+  "bugs": {
+    "url": "https://github.com/qcyblm/qcyblm.github.io/issues"
+  },
+  "homepage": "https://github.com/qcyblm/qcyblm.github.io#readme",
+  "devDependencies": {
+    "@qcyblm/vuepress-theme-vpx": "^1.0.4",
+    "vuepress": "^1.7.1"
+  }
+}
