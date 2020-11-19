@@ -31,7 +31,7 @@ footerWrap:
     link: https://zhissue.cn/
 socialIcons:
 - type: 'GitHub'
-  link: 'htps://github.com/qcyblm'
+  link: 'https://github.com/qcyblm'
 - type: 'QQ'
   link: 'http://wpa.qq.com/msgrd?v=3&uin=2559825061&site=qq&menu=yes'
 - type: 'Email'
