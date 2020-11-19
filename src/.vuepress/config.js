@@ -26,6 +26,17 @@ module.exports = {
         '/windows/wepe'
       ]
     },
+    repo: {
+      platform: 'https://github.com/',
+      icon: 'fab fa-github',
+      owner: 'qcyblm',
+      repositories: 'qcyblm.github.io',
+    },
+    editLinks: true,
+    editLinkText: '编辑当前页',
+    edit: {
+      docsDir: 'src',
+    },
     footer: {
       createYear: '2020',
       author: 'qcyblm',
