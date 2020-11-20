@@ -14,7 +14,7 @@
 
 ::: tip 友情链接
 网站名称： 青春永不落幕  
-网站地址：https://www.qcyblm.me/  
-网站头像：https://www.qcyblm.me/favicon.ico  
+网站地址：https://qcyblm.gitee.io/  
+网站头像：https://qcyblm.gitee.io/favicon.ico  
 网站简介：一位网页设计和收集Windows平台软件的爱好者。
 :::
