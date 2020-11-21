@@ -107,7 +107,6 @@
  - [Visual Studio](https://visualstudio.microsoft.com/zh-hans/vs/)
  - [Visual Studio Code](https://code.visualstudio.com/)
  - [Sublime Text](https://www.sublimetext.com/)
- - [Notepad++](https://notepad-plus-plus.org)
  - [HBuilder X](https://www.dcloud.io/hbuilderx.html)
  - [Brackets](http://brackets.io/)
  - [Atom](https://atom.io/)
