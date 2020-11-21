@@ -92,6 +92,7 @@
  - [百度网盘](https://pan.baidu.com/)
  - [迅雷](https://www.xunlei.com/)
  - [Internet Download Manager](http://www.internetdownloadmanager.com/)
+ - [Free Download Manager](https://www.freedownloadmanager.org/)
  - [OneDrive](https://go.microsoft.com/fwlink/?LinkId=263764)
  - [Xdown](https://xdown.org/)
 
