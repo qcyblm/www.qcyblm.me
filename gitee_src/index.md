@@ -25,12 +25,12 @@ footerWrap:
     link: https://coder163.com/
   - text: 提莫酱的博客
     link: https://zzr3.xyz/
-  - text: 跟着老侯玩编程
-    link: https://coder163.com/
   - text: 黑夜键盘手
     link: https://leacoder.gitee.io/leacloudreco
   - text: 智慧问题
     link: https://zhissue.cn/
+  - text: 阿猫阿狗
+    link: https://blog.yhz610.com/
 socialIcons:
 - type: 'GitHub'
   link: 'https://github.com/qcyblm'

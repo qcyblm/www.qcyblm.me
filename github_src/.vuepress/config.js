@@ -4,6 +4,11 @@ module.exports = {
   temp: '.temp',
   cache: '.cache',
   theme: '@qcyblm/vpx',
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+    }
+  },
   themeConfig: {
     logo: '/assets/img/logo.webp',
     nav: [
@@ -52,6 +57,7 @@ module.exports = {
       repo: 'qcyblm.github.io',
       clientId: '76bea0001ccb4222088c',
       clientSecret: 'ed7bd6738a82c5d9becdfe8732f38bd2e158bcf8',
+      locale: 'zh'
     },
   }
 }
