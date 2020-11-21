@@ -35,14 +35,23 @@ module.exports = {
     editLinks: true,
     editLinkText: '编辑当前页',
     edit: {
-      docsDir: 'src',
+      docsDir: 'gitee_src',
     },
     footer: {
       createYear: '2020',
       author: 'qcyblm',
-      authorLink: 'https://github.com/qcyblm',
+      authorLink: 'https://qcyblm.gitee.io/',
       licensedLink: 'https://github.com/qcyblm/qcyblm.github.io/blob/master/LICENSE',
       licensed: 'MIT',
     }
+  },
+  plugins: {
+    '@vssue/vuepress-plugin-vssue': {
+      platform: 'gitee',
+      owner: 'qcyblm',
+      repo: 'qcyblm',
+      clientId: 'f04c9e0dcb9b0a4556f39546ae91add9d5ba9d533aace5d37777bf95af5e99ac',
+      clientSecret: '21aacdd7635157cf207d24a1f126ce224880197e55c24ef5f24ec02bf233b64a',
+    },
   }
 }

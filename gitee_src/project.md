@@ -47,3 +47,5 @@
   icon: 'fab fa-github'
 ```
 :::
+
+<Vssue :title="$title" />

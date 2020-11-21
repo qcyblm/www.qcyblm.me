@@ -18,3 +18,5 @@
 网站头像：https://qcyblm.gitee.io/favicon.ico  
 网站简介：一位网页设计和收集Windows平台软件的爱好者。
 :::
+
+<Vssue :title="$title" />
