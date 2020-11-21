@@ -44,6 +44,9 @@
  - [腾讯视频](https://v.qq.com/)
  - [爱奇艺](https://www.iqiyi.com/)
  - [爱奇艺万能联播](http://static-s.iqiyi.com/wnbf/get.html)
+ - [芒果TV](https://www.mgtv.com/)
+ - [央视影音](https://app.cctv.com/)
+ - [优酷](https://www.youku.com/)
  - [暴风影音](http://www.baofeng.com/)
  - [PotPlayer](https://daumpotplayer.com/download/)
  - [VLC media player](https://www.videolan.org/)
@@ -75,6 +78,7 @@
  - [GIMP](https://www.gimp.org/)
  - [Honeyview](https://www.bandisoft.com/honeyview/)
  - [Honeycam](https://www.bandisoft.com/honeycam/)
+ - [图片工厂](http://www.pcfreetime.com/picosmos/index.php)
 
 ## 文件处理
  - [Everything](https://www.voidtools.com/)
@@ -82,6 +86,7 @@
  - [MyHash](https://github.com/drag0n-app/)
  - [SumatraPDF](https://www.sumatrapdfreader.org/)
  - [FastCopy](https://fastcopy.jp/)
+ - [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html)
 
 ## 上传下载
  - [百度网盘](https://pan.baidu.com/)
@@ -112,6 +117,10 @@
 ## 硬件检测
  - [鲁大师](https://www.ludashi.com/)
  - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
+ - [GPU-Z](https://www.techpowerup.com/gpuz/)
+ - [HD Tune](https://www.hdtune.com/)
+ - [AIDA64](https://www.aida64.com/)
+ - [Crystal Dew World](https://crystalmark.info/)
 
 ## 虚拟机
  - [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)
@@ -121,6 +130,11 @@
  - [DiskGenius](https://www.diskgenius.cn/)
  - [分区助手](https://www.disktool.cn/)
 
+## 驱动管理
+ - [360驱动大师](http://weishi.360.cn/qudongdashi/index.html)
+ - [驱动精灵](https://www.drivergenius.com/)
+ - [NVIDIA 驱动程序下载](https://www.nvidia.cn/Download/index.aspx?lang=cn)
+ - [AMD 驱动程序与支持](https://www.amd.com/zh-hans/support)
 
 ## 引导工具
  - [BOOTICE](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=57675&fromuid=755326)
