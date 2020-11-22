@@ -122,6 +122,7 @@
  - [AIDA64](https://www.aida64.com/)
  - [Crystal Dew World](https://crystalmark.info/)
  - [图吧工具箱](https://www.tbtool.cn/)
+ - [卡硬工具箱](http://www.kbtool.cn/)
 
 ## 虚拟机
  - [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)
