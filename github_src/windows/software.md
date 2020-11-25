@@ -56,6 +56,7 @@
  - [QQ音乐](https://y.qq.com/)
  - [虾米音乐](https://www.xiami.com/)
  - [酷狗音乐](https://www.kugou.com/)
+ - [AIMP](https://www.aimp.ru/)
 
 ## 压缩软件
  - [WinRAR](https://www.rarlab.com/)
@@ -87,6 +88,7 @@
  - [SumatraPDF](https://www.sumatrapdfreader.org/)
  - [FastCopy](https://fastcopy.jp/)
  - [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html)
+ - [小丸工具箱](https://maruko.appinn.me/)
 
 ## 上传下载
  - [百度网盘](https://pan.baidu.com/)
