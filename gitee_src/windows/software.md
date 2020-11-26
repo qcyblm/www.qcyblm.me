@@ -113,6 +113,7 @@
  - [Brackets](http://brackets.io/)
  - [Atom](https://atom.io/)
  - [Typora](https://www.typora.io/)
+ - [Notepad3](https://www.rizonesoft.com/downloads/notepad3/)
  - [Git](https://git-scm.com/)
  - [Node.js](https://nodejs.org/)
 
