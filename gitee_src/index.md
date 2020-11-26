@@ -15,6 +15,10 @@ footerWrap:
 - title: 友情链接
   icon: fa fa-link
   item:
+  - text: 大贤者初春令月
+    link: https://mourinaruto.github.io/
+  - text: Dism++
+    link: https://www.chuyu.me/
   - text: azanone blog
     link: https://blog.azan.one/
   - text: 186526的博客
