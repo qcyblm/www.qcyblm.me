@@ -19,6 +19,8 @@ footerWrap:
     link: https://mourinaruto.github.io/
   - text: Dism++
     link: https://www.chuyu.me/
+  - text: WINOS
+    link: https://www.winos.me/
   - text: azanone blog
     link: https://blog.azan.one/
   - text: 186526的博客

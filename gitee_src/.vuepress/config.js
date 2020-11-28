@@ -23,6 +23,8 @@ module.exports = {
           { text: 'Windows PE 工具', link: '/windows/wepe' }
         ]
       },
+      { text: '文档', link: '/book/', icon: 'fa fa-book' },
+      { text: '导航', link: '/book/', icon: 'fa fa-bookmark' },
       { text: '支持', link: '/support', icon: 'fa fa-bell' },
     ],
     sidebar: {

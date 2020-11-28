@@ -23,6 +23,8 @@ module.exports = {
           { text: 'Windows PE 工具', link: '/windows/wepe' }
         ]
       },
+      { text: '文档', link: '/book/', icon: 'fa fa-book' },
+      { text: '导航', link: '/book/', icon: 'fa fa-bookmark' },
       { text: '支持', link: '/support', icon: 'fa fa-bell' },
     ],
     sidebar: {
@@ -40,23 +42,23 @@ module.exports = {
     editLinks: true,
     editLinkText: '编辑当前页',
     edit: {
-      docsDir: 'github_src',
+      docsDir: 'gitee_src',
     },
     footer: {
       createYear: '2020',
       author: 'qcyblm',
-      authorLink: 'https://qcyblm.github.io/',
+      authorLink: 'https://qcyblm.gitee.io/',
       licensedLink: 'https://github.com/qcyblm/qcyblm.github.io/blob/master/LICENSE',
       licensed: 'MIT',
     }
   },
   plugins: {
     '@vssue/vuepress-plugin-vssue': {
-      platform: 'github',
+      platform: 'gitee',
       owner: 'qcyblm',
-      repo: 'qcyblm.github.io',
-      clientId: '76bea0001ccb4222088c',
-      clientSecret: 'ed7bd6738a82c5d9becdfe8732f38bd2e158bcf8',
+      repo: 'qcyblm',
+      clientId: 'f04c9e0dcb9b0a4556f39546ae91add9d5ba9d533aace5d37777bf95af5e99ac',
+      clientSecret: '21aacdd7635157cf207d24a1f126ce224880197e55c24ef5f24ec02bf233b64a',
       locale: 'zh'
     },
   }
