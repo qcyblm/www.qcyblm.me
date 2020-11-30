@@ -11,7 +11,8 @@
     "gitee:dev": "vuepress dev gitee_src",
     "github:build": "vuepress build github_src",
     "gitee:build": "vuepress build gitee_src",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
+    "baiduPush": "node utils/baiduPush.js https://xugaoyi.com && bash baiduPush.sh"
   },
   "bugs": {
     "url": "https://github.com/qcyblm/qcyblm.github.io/issues"
@@ -19,7 +20,9 @@
   "homepage": "https://github.com/qcyblm/qcyblm.github.io#readme",
   "devDependencies": {
     "@qcyblm/vuepress-theme-vpx": "^1.0.4",
-    "vuepress": "^1.7.1"
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-baidu-tongji": "^1.0.1",
   },
   "dependencies": {
     "@vssue/api-gitee-v5": "^1.4.4",
