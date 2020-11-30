@@ -53,6 +53,4 @@ git add -A
 git commit -m "${msg}"
 git push -f $giteeUrl master # 推送到Gitee
 
-curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.com/urls?site=https://qcyblm.gitee.io&token=0JE7IqrcilaX5f3G"
-
 cd - 
