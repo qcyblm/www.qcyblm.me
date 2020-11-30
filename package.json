@@ -22,7 +22,7 @@
     "@qcyblm/vuepress-theme-vpx": "^1.0.4",
     "vuepress": "^1.7.1",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
-    "vuepress-plugin-baidu-tongji": "^1.0.1",
+    "vuepress-plugin-baidu-tongji": "^1.0.1"
   },
   "dependencies": {
     "@vssue/api-gitee-v5": "^1.4.4",
