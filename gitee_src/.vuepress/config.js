@@ -1,6 +1,9 @@
 module.exports = {
   title: '青春永不落幕',
   description: '一位静态网站设计爱好者',
+  head: [
+    ['meta', { name: 'baidu-site-verification', content: 'code-jNjoWXWohM' }]
+  ],
   temp: '.temp',
   cache: '.cache',
   theme: '@qcyblm/vpx',
