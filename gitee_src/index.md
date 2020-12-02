@@ -37,6 +37,8 @@ footerWrap:
     link: https://zhissue.cn/
   - text: 阿猫阿狗
     link: https://blog.yhz610.com/
+  - text: 'http://www.itstreet.top/'
+    link: 'IT街'
 socialIcons:
 - type: 'GitHub'
   link: 'https://github.com/qcyblm'
@@ -46,8 +48,6 @@ socialIcons:
   link: 'mailto:qcyblm@163.com'
 - type: 'Telegram'
   link: 'https://t.me/qcyblm'
-- type: 'http://www.itstreet.top/'
-  link: 'IT街'
 ---
 
 ### 欢迎来到青春永不落幕的技术博客
