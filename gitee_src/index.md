@@ -37,8 +37,8 @@ footerWrap:
     link: https://zhissue.cn/
   - text: 阿猫阿狗
     link: https://blog.yhz610.com/
-  - text: 'http://www.itstreet.top/'
-    link: 'IT街'
+  - text: 'IT街'
+    link: 'http://www.itstreet.top/'
 socialIcons:
 - type: 'GitHub'
   link: 'https://github.com/qcyblm'
