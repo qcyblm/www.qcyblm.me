@@ -46,6 +46,8 @@ socialIcons:
   link: 'mailto:qcyblm@163.com'
 - type: 'Telegram'
   link: 'https://t.me/qcyblm'
+- type: 'http://www.itstreet.top/'
+  link: 'IT街'
 ---
 
 ### 欢迎来到青春永不落幕的技术博客
