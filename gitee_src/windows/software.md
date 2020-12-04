@@ -89,6 +89,7 @@
  - [FastCopy](https://fastcopy.jp/)
  - [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html)
  - [小丸工具箱](https://maruko.appinn.me/)
+ - [Q-Dir](http://www.softwareok.com/?seite=Freeware/Q-Dir)
 
 ## 上传下载
  - [百度网盘](https://pan.baidu.com/)
