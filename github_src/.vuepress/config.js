@@ -54,12 +54,11 @@ module.exports = {
   },
   plugins: {
     '@vssue/vuepress-plugin-vssue': {
-      platform: 'gitee',
+      platform: 'github',
       owner: 'qcyblm',
-      repo: 'qcyblm',
-      clientId: 'f04c9e0dcb9b0a4556f39546ae91add9d5ba9d533aace5d37777bf95af5e99ac',
-      clientSecret: '21aacdd7635157cf207d24a1f126ce224880197e55c24ef5f24ec02bf233b64a',
-      locale: 'zh'
+      repo: 'qcyblm.github.io',
+      clientId: '76bea0001ccb4222088c',
+      clientSecret: 'ed7bd6738a82c5d9becdfe8732f38bd2e158bcf8',
     },
   }
 }
