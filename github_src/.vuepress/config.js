@@ -47,7 +47,7 @@ module.exports = {
     footer: {
       createYear: '2020',
       author: 'qcyblm',
-      authorLink: 'https://qcyblm.gitee.io/',
+      authorLink: 'https://qcyblm.github.io/',
       licensedLink: 'https://github.com/qcyblm/qcyblm.github.io/blob/master/LICENSE',
       licensed: 'MIT',
     }
