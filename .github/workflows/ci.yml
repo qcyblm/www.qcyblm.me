@@ -19,7 +19,6 @@ jobs: # 工作流
           GITHUB_EMAIL: ${{ secrets.ACCESS_EMAIL }} # 邮箱私密变量
           GITEE_EMAIL: ${{ secrets.GITEE_EMAIL }}
         run: |
-          timedatectl set-timezone Asia/Shanghai
           npm install yarn@berry
           rm -rf package-lock.json
           yarn deploy
