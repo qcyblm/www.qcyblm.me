@@ -47,6 +47,7 @@ module.exports = {
     edit: {
       docsDir: 'gitee_src',
     },
+    lastUpdated: '最后更新时间',
     footer: {
       createYear: '2020',
       author: 'qcyblm',
