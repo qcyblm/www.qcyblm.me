@@ -6854,6 +6854,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"moment@npm:^2.29.1":
+  version: 2.29.1
+  resolution: "moment@npm:2.29.1::__archiveUrl=https%3A%2F%2Fregistry.npm.taobao.org%2Fmoment%2Fdownload%2Fmoment-2.29.1.tgz"
+  checksum: a61cce6a571cc6859735afa263d35b7cc4be4114b8814240b7455922d81df8e84ce3bb886fd40b6aee10a69636ac4e7dd520e88d1aa0d9020acd79015492db0f
+  languageName: node
+  linkType: hard
+
 "move-concurrently@npm:^1.0.1":
   version: 1.0.1
   resolution: "move-concurrently@npm:1.0.1::__archiveUrl=https%3A%2F%2Fregistry.npm.taobao.org%2Fmove-concurrently%2Fdownload%2Fmove-concurrently-1.0.1.tgz"
@@ -8251,6 +8258,7 @@ fsevents@~2.1.2:
     "@vssue/api-gitee-v5": ^1.4.4
     "@vssue/api-github-v3": ^1.4.4
     "@vssue/vuepress-plugin-vssue": ^1.4.6
+    moment: ^2.29.1
     vuepress: ^1.7.1
   languageName: unknown
   linkType: soft

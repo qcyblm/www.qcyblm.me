@@ -7,7 +7,7 @@
   "author": "qcyblm",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev github_src",
+    "github:dev": "vuepress dev github_src",
     "gitee:dev": "vuepress dev gitee_src",
     "github:build": "vuepress build github_src",
     "gitee:build": "vuepress build gitee_src",
@@ -24,6 +24,7 @@
   "dependencies": {
     "@vssue/api-gitee-v5": "^1.4.4",
     "@vssue/api-github-v3": "^1.4.4",
-    "@vssue/vuepress-plugin-vssue": "^1.4.6"
+    "@vssue/vuepress-plugin-vssue": "^1.4.6",
+    "moment": "^2.29.1"
   }
 }
