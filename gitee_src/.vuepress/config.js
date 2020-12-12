@@ -69,7 +69,7 @@ module.exports = {
     },
     '@vuepress/last-updated': {
       transformer: (timestamp) => {
-        return moment(timestamp).format("Y-M-D H:M:ss Z")
+        return moment(timestamp).format("LLLL Z")
       }
     }
   }
