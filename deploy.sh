@@ -22,7 +22,7 @@ else
 fi
 git init
 git add -A
-git commit -m "${msg}"
+git commit -m "${msg}：$(date)"
 git push -f $githubUrl master:gh-pages # 推送到github
 
 cd -
@@ -50,7 +50,7 @@ else
 fi
 git init
 git add -A
-git commit -m "${msg}"
+git commit -m "${msg}：$(date)"
 git push -f $giteeUrl master # 推送到Gitee
 
 cd - 
