@@ -42,7 +42,7 @@ module.exports = {
     editLinks: true,
     editLinkText: '编辑当前页',
     edit: {
-      docsDir: 'gitee_src',
+      docsDir: 'github_src',
     },
     footer: {
       createYear: '2020',
