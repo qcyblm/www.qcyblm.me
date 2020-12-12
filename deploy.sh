@@ -22,7 +22,7 @@ else
 fi
 git init
 git add -A
-git commit -m "${msg}：$(TZ="Asia/Shanghai" date +"%x %T %Z")"
+git commit -m "${msg}：$(TZ="Asia/Shanghai" date +"%Y-%m-%d %T %Z")"
 git push -f $githubUrl master:gh-pages # 推送到github
 
 cd -
@@ -50,7 +50,7 @@ else
 fi
 git init
 git add -A
-git commit -m "${msg}：$(TZ="Asia/Shanghai" date +"%x %T %Z")"
+git commit -m "${msg}：$(TZ="Asia/Shanghai" date +"%Y-%m-%d %T %Z")"
 git push -f $giteeUrl master # 推送到Gitee
 
 cd - 
