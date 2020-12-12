@@ -1,19 +1,5 @@
 const moment = require('moment')
-moment.updateLocale('zh-cn', {
-  meridiem : function (hour, minute) {
-      if (hour < 9) {
-          return "早上";
-      } else if (hour < 11 && minute < 30) {
-          return "上午";
-      } else if (hour < 13 && minute < 30) {
-          return "中午";
-      } else if (hour < 18) {
-          return "下午";
-      } else {
-          return "晚上";
-      }
-  }
-});
+moment.locale('zh-cn')
 module.exports = {
   title: '青春永不落幕',
   description: '一位静态网站设计爱好者',
