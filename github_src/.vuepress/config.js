@@ -67,6 +67,10 @@ module.exports = {
         moment.locale(lang)
         return moment(timestamp).format("LLLL Z")
       }
+    },
+    'graysite': {
+      startDate: '2020-12-13 00:00:00',
+      endDate: '2020-12-13 23:59:59'
     }
   }
 }
