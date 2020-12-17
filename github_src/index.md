@@ -21,8 +21,6 @@ footerWrap:
     link: https://www.chuyu.me/
   - text: WINOS
     link: https://www.winos.me/
-  - text: azanone blog
-    link: https://blog.azan.one/
   - text: 186526的博客
     link: https://186526.xyz/
   - text: XIAO_YANG的主站
