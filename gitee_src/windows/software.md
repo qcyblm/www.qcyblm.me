@@ -157,6 +157,7 @@
  - [WDControl](https://whatk.me/wdcontrol/)
  - [Activate7UL](https://whatk.me/activate7ul/)
  - [WTDR](https://wtdr.whatk.me/)
+ - [Defender Control](https://www.sordum.org/9480/defender-control-v1-6/)
  - [微PE工具箱](http://www.wepe.com.cn/)
 
 ## 系统安装工具
