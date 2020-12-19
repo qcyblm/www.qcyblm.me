@@ -8260,7 +8260,6 @@ fsevents@~2.1.2:
     "@vssue/vuepress-plugin-vssue": ^1.4.6
     moment: ^2.29.1
     vuepress: ^1.7.1
-    vuepress-plugin-graysite: 0.1.0
   languageName: unknown
   linkType: soft
 
@@ -10327,13 +10326,6 @@ fsevents@~2.1.2:
     "@vuepress/shared-utils": ^1.2.0
     markdown-it-container: ^2.0.0
   checksum: 31e1477a5e84f81ad1fe64c38c8bbbb9b0685c9fdf8d2801d594347db3ed5e9edf58da9a1639a7591a2f0bdd22abf0019315449e03680e3d8939d75986db3e53
-  languageName: node
-  linkType: hard
-
-"vuepress-plugin-graysite@npm:0.1.0":
-  version: 0.1.0
-  resolution: "vuepress-plugin-graysite@npm:0.1.0::__archiveUrl=https%3A%2F%2Fregistry.npm.taobao.org%2Fvuepress-plugin-graysite%2Fdownload%2Fvuepress-plugin-graysite-0.1.0.tgz"
-  checksum: 67a8c4c55debe92f164c322d4a2ef7d88a382d94d51691cd12a799cb55db6d90bbc3a167e36a200ff62174b17898b14a9d73f3b21ec5ba4f53dcc203ba13ace8
   languageName: node
   linkType: hard
 
