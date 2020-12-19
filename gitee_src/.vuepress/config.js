@@ -62,8 +62,8 @@ module.exports = {
       platform: 'gitee',
       owner: 'qcyblm',
       repo: 'qcyblm',
-      clientId: secret.GITEE_CLIENTID,
-      clientSecret: secret.GITEE_CLIENTSECRET,
+      clientId: secret.clientId,
+      clientSecret: secret.clientSecret,
       locale: 'zh'
     },
     '@vuepress/last-updated': {
