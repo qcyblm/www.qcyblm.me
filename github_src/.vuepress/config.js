@@ -1,3 +1,4 @@
+const secret = require('./secret')
 module.exports = {
   title: '青春永不落幕',
   description: '一位静态网站设计爱好者',
@@ -58,8 +59,8 @@ module.exports = {
       platform: 'github',
       owner: 'qcyblm',
       repo: 'qcyblm.github.io',
-      clientId: '76bea0001ccb4222088c',
-      clientSecret: 'ed7bd6738a82c5d9becdfe8732f38bd2e158bcf8',
+      clientId: secret.GITHUB_CLIENTID,
+      clientSecret: secret.GITHUB_CLIENTSECRET,
     },
     '@vuepress/last-updated': {
       transformer: (timestamp, lang) => {

@@ -5,6 +5,7 @@ set -e
 
 # 生成静态文件
 yarn
+echo "module.exports={GITHUB_CLIENTSECRET: ${ GITHUB_CLIENTID },GITHUB_CLIENTSECRET: ${GITHUB_CLIENTSECRET}}" > github_src/.vuepress/secret.js
 yarn github:build
 
 # 进入生成的文件夹
@@ -33,6 +34,7 @@ cd -
 set -e
 
 # 生成静态文件
+echo "module.exports={GITEE_CLIENTSECRET: ${ GITEE_CLIENTID },GITEE_CLIENTSECRET: ${GITEE_CLIENTSECRET}}" > gitee_src/.vuepress/secret.js
 yarn gitee:build
 
 # 进入生成的文件夹
