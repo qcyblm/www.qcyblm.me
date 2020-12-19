@@ -58,8 +58,8 @@ module.exports = {
       platform: 'github',
       owner: 'qcyblm',
       repo: 'qcyblm.github.io',
-      clientId: 'process.env.GITHUB_CLIENTID',
-      clientSecret: 'process.env.GITHUB_CLIENTSECRET',
+      clientId: process.env.GITHUB_CLIENTID,
+      clientSecret: process.env.GITHUB_CLIENTSECRET,
     },
     '@vuepress/last-updated': {
       transformer: (timestamp, lang) => {
