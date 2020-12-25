@@ -33,7 +33,7 @@ footerWrap:
     link: https://blog.yhz610.com/
   - text: 'IT街'
     link: 'http://www.itstreet.top/'
-  - text: 'Tien's blog'
+  - text: "Tien's blog"
     link: 'https://www.dodolo.top/vuepress/'
 socialIcons:
 - type: 'GitHub'
