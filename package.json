@@ -7,10 +7,10 @@
   "author": "qcyblm",
   "license": "MIT",
   "scripts": {
-    "github:dev": "vuepress dev github_src",
-    "gitee:dev": "vuepress dev gitee_src",
-    "github:build": "vuepress build github_src",
-    "gitee:build": "vuepress build gitee_src",
+    "github:dev": "vuepress dev github_src --no-cache",
+    "gitee:dev": "vuepress dev gitee_src --no-cache",
+    "github:build": "vuepress build github_src --no-cache",
+    "gitee:build": "vuepress build gitee_src --no-cache",
     "deploy": "bash deploy.sh"
   },
   "bugs": {

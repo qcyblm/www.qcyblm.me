@@ -21,12 +21,8 @@ footerWrap:
     link: https://www.chuyu.me/
   - text: WINOS
     link: https://www.winos.me/
-  - text: 186526的博客
-    link: https://186526.xyz/
   - text: XIAO_YANG的主站
     link: https://xiaoyang.pw/
-  - text: 跟着老侯玩编程
-    link: https://coder163.com/
   - text: 提莫酱的博客
     link: https://zzr3.xyz/
   - text: 黑夜键盘手
@@ -37,6 +33,8 @@ footerWrap:
     link: https://blog.yhz610.com/
   - text: 'IT街'
     link: 'http://www.itstreet.top/'
+  - text: 'Tien's blog'
+    link: 'https://www.dodolo.top/vuepress/'
 socialIcons:
 - type: 'GitHub'
   link: 'https://github.com/qcyblm'
