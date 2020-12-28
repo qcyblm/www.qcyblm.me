@@ -35,6 +35,8 @@ footerWrap:
     link: 'http://www.itstreet.top/'
   - text: "Tien's blog"
     link: 'https://www.dodolo.top/vuepress/'
+  - text: '龙爪槐守望者'
+    link: 'https://www.ftium4.com/'
 socialIcons:
 - type: 'GitHub'
   link: 'https://github.com/qcyblm'
