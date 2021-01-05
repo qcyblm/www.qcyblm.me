@@ -43,7 +43,7 @@ module.exports = {
     editLinks: true,
     editLinkText: '编辑当前页',
     edit: {
-      docsDir: 'github_src',
+      docsDir: 'src',
     },
     lastUpdated: '最后更新时间',
     footer: {
