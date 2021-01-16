@@ -24,7 +24,7 @@ footerWrap:
   - text: XIAO_YANG的主站
     link: https://xiaoyang.pw/
   - text: 提莫酱的博客
-    link: https://zzr3.xyz/
+    link: https://www.timochan.cn/
   - text: 黑夜键盘手
     link: https://leacoder.gitee.io/leacloudreco
   - text: 智慧问题
@@ -36,7 +36,7 @@ footerWrap:
   - text: "Tien's blog"
     link: 'https://www.dodolo.top/vuepress/'
   - text: '龙爪槐守望者'
-    link: 'https://www.ftium4.com/'
+    link: 'http://www.ftium4.com/'
 socialIcons:
 - type: 'GitHub'
   link: 'https://github.com/qcyblm'

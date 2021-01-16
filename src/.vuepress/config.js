@@ -2,6 +2,11 @@ const secret = require('./secret')
 module.exports = {
   title: '青春永不落幕',
   description: '一位静态网站设计爱好者',
+  head: [
+    ['meta', { name: 'baidu-site-verification', content: 'code-jNjoWXWohM' }],
+    ['link', { rel: 'icon', href: './favicon.ico', type: 'image/x-icon' }],
+    ['link', { rel: 'shortcut icon', href: './favicon.ico', type: 'image/x-icon' }],
+  ],
   temp: '.temp',
   cache: '.cache',
   theme: '@qcyblm/vpx',
@@ -25,7 +30,7 @@ module.exports = {
         ]
       },
       { text: '文档', link: '/book/', icon: 'fa fa-book' },
-      { text: '导航', link: '/book/', icon: 'fa fa-bookmark' },
+      { text: '导航', link: '/nav', icon: 'fa fa-bookmark' },
       { text: '支持', link: '/support', icon: 'fa fa-bell' },
     ],
     sidebar: {
@@ -61,6 +66,7 @@ module.exports = {
       repo: 'qcyblm.github.io',
       clientId: secret.clientId,
       clientSecret: secret.clientSecret,
+      locale: 'zh'
     },
     '@vuepress/last-updated': {
       transformer: (timestamp, lang) => {

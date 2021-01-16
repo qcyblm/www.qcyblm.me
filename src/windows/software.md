@@ -32,6 +32,8 @@
  - [极品五笔](http://jpwb.cc/rjxz.htm)
  - [极点五笔](http://www.freewb.org/)
  - [万能五笔](http://www.wnwb.com/)
+ - [小狼毫输入法](https://rime.im/)
+ - [维软标准输入法](http://www.uighursoft.com/zh-CN/products/alkatip.html)
 
 ## 安全
  - [360安全卫士](https://weishi.360.cn/)
@@ -63,6 +65,7 @@
  - [7-Zip](https://www.7-zip.org/)
  - [Bandizip](https://www.bandisoft.com/bandizip/)
  - [360 Zip](https://www.360totalsecurity.com/zh-cn/360zip/)
+ - [7-Zip-zstd](https://github.com/mcmilk/7-Zip-zstd)
 
 ## 办公软件
  - [Microsoft Office](https://www.office.com/)
@@ -80,6 +83,10 @@
  - [Honeyview](https://www.bandisoft.com/honeyview/)
  - [Honeycam](https://www.bandisoft.com/honeycam/)
  - [图片工厂](http://www.pcfreetime.com/picosmos/index.php)
+ - [Waifu2x-Extension-GUI ](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)
+
+## 屏幕录制
+ - [OBS Studio](https://obsproject.com/)
 
 ## 文件处理
  - [Everything](https://www.voidtools.com/)
@@ -90,6 +97,7 @@
  - [格式工厂](http://www.pcfreetime.com/formatfactory/CN/index.html)
  - [小丸工具箱](https://maruko.appinn.me/)
  - [Q-Dir](http://www.softwareok.com/?seite=Freeware/Q-Dir)
+ - [BelaUtils](https://github.com/fcharlie/BelaUtils)
 
 ## 上传下载
  - [百度网盘](https://pan.baidu.com/)
@@ -117,6 +125,8 @@
  - [Notepad3](https://www.rizonesoft.com/downloads/notepad3/)
  - [Git](https://git-scm.com/)
  - [Node.js](https://nodejs.org/)
+ - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+ - [PyCharm](https://www.jetbrains.com/pycharm/)
 
 ## 硬件检测
  - [鲁大师](https://www.ludashi.com/)
@@ -127,6 +137,9 @@
  - [Crystal Dew World](https://crystalmark.info/)
  - [图吧工具箱](https://www.tbtool.cn/)
  - [卡硬工具箱](http://www.kbtool.cn/)
+
+## 模拟器
+ - [逍遥安卓模拟器](https://www.xyaz.cn/)
 
 ## 虚拟机
  - [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)
