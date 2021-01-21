@@ -1,24 +1,15 @@
-#!/usr/bin/env sh
-
-# 确保脚本抛出遇到的错误
 set -e
 
-# 生成静态文件
 yarn
-echo "module.exports={clientId: '${GITHUB_CLIENTID}',clientSecret: '${GITHUB_CLIENTSECRET}'}" > src/.vuepress/secret.js
+echo "module.exports={clientId: '${VSSUE_CLIENTID}',clientSecret: '${VSSUE_CLIENTSECRET}'}" > src/.vuepress/secret.js
 yarn build
 
-# 进入生成的文件夹
 cd src/.vuepress/dist
 
-# Deploy to GitHub
-if [ -z "$GITHUB_TOKEN" ]; then
-  msg='deploy'
-  githubUrl=git@github.com:qcyblm/qcyblm.github.io.git
-else
+if
   msg='来自GitHub Action的自动部署'
-  githubUrl=https://qcyblm:${GITHUB_TOKEN}@github.com/qcyblm/qcyblm.github.io.git
-  git config --global user.name "qcyblm"
+  githubUrl=git@github.com:qcyblm/qcyblm.github.io.git
+  git config --global user.name "${GITHUB_NAME}"
   git config --global user.email "${GITHUB_EMAIL}"
 fi
 git init
