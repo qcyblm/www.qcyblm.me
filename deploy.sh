@@ -1,11 +1,8 @@
 set -e
-
 yarn
 echo "module.exports={clientId: '${VSSUE_CLIENTID}',clientSecret: '${VSSUE_CLIENTSECRET}'}" > src/.vuepress/secret.js
 yarn build
-
 cd src/.vuepress/dist
-ssh -T git@github.com
 git config --global user.name "${GITHUB_NAME}"
 git config --global user.email "${GITHUB_EMAIL}"
 git init
