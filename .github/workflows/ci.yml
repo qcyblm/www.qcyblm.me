@@ -29,11 +29,8 @@ jobs:
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          npm install yarn
-          rm -rf package-lock.json
-          yarn
           echo "module.exports={clientId: '${VSSUE_CLIENTID}',clientSecret: '${VSSUE_CLIENTSECRET}'}" > src/.vuepress/secret.js
-          yarn build
+          yarn && yarn build
           cd src/.vuepress/dist
           git config --global user.name "${GITHUB_NAME}"
           git config --global user.email "${GITHUB_EMAIL}"
