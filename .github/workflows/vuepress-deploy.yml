@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.4
         with:
-          node-version: 12.x
+          node-version: 15.x
       - name: build and deploy
         env:
           GITHUB_NAME: ${{ secrets.ACCESS_NAME }}
