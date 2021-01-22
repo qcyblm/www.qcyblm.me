@@ -1,16 +1,13 @@
-name: CI
-
+name: vuepress-deploy
 on: 
   push:
     branches:
       - master
 env:
   TZ: Asia/Shanghai
-
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-20.04
-
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.4
@@ -21,7 +18,7 @@ jobs:
         uses: actions/setup-node@v2.1.4
         with:
           node-version: 12.x
-      - name: build deploy
+      - name: build and deploy
         env:
           GITHUB_NAME: ${{ secrets.ACCESS_NAME }}
           GITHUB_EMAIL: ${{ secrets.ACCESS_EMAIL }}
@@ -40,5 +37,5 @@ jobs:
           git config --global user.email "${GITHUB_EMAIL}"
           git init
           git add -A
-          git commit -m "来自GitHub Action的自动部署：$(TZ="Asia/Shanghai" date +"%Y-%m-%d %T %Z")"
+          git commit -m "Auto Deploy from Github Actions: $(TZ="Asia/Shanghai" date +"%Y-%m-%d %T %Z")"
           git push -f git@github.com:${GITHUB_NAME}/${GITHUB_NAME}.github.io.git master:gh-pages
