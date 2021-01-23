@@ -39,5 +39,5 @@ jobs:
           git config --global user.email "${GITHUB_EMAIL}"
           git init
           git add -A
-          git commit -m "Auto Deploy from Github Actions: $(date)"
+          git commit -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %Z")"
           git push -f git@github.com:${GITHUB_NAME}/${GITHUB_NAME}.github.io.git master:gh-pages
