@@ -5,6 +5,7 @@ on:
       - master
 env:
   LANG: zh_CN.UTF-8
+  LANGUAGE: zh_CN
   TZ: Asia/Shanghai
 jobs:
   build-and-deploy:
@@ -38,5 +39,5 @@ jobs:
           git config --global user.email "${GITHUB_EMAIL}"
           git init
           git add -A
-          git commit -m "Auto Deploy from Github Actions: $(TZ="Asia/Shanghai" date)"
+          git commit -m "Auto Deploy from Github Actions: $(date)"
           git push -f git@github.com:${GITHUB_NAME}/${GITHUB_NAME}.github.io.git master:gh-pages
