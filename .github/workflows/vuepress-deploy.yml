@@ -34,9 +34,9 @@ jobs:
           yarn build
           rm -rf src/.vuepress/secret.js
           cd src/.vuepress/dist
-          git config --global user.name "${GITHUB_NAME}"
-          git config --global user.email "${GITHUB_EMAIL}"
           git init
+          git config user.name "${GITHUB_NAME}"
+          git config user.email "${GITHUB_EMAIL}"
           git add -A
           git commit -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %Z")"
           mkdir -p ~/.ssh/
