@@ -34,7 +34,7 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           echo "module.exports={clientId: '${VSSUE_CLIENTID}',clientSecret: '${VSSUE_CLIENTSECRET}'}" > src/.vuepress/secret.js
           yarn && yarn build
-          rm -rf ~/src/.vuepress/secret.js
+          rm -rf src/.vuepress/secret.js
           cd src/.vuepress/dist
           git config --global user.name "${GITHUB_NAME}"
           git config --global user.email "${GITHUB_EMAIL}"
