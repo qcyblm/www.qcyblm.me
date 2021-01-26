@@ -31,7 +31,7 @@ jobs:
           mkdir -p ~/.ssh/
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          ssh-keyscan github.com,192.30.255.113,140.82.112.4,140.82.113.3,140.82.112.3,140.82.114.3,140.82.113.4,140.82.121.4,140.82.114.4,52.74.223.119,13.229.188.59 >> ~/.ssh/known_hosts
           echo "module.exports={clientId: '${VSSUE_CLIENTID}',clientSecret: '${VSSUE_CLIENTSECRET}'}" > src/.vuepress/secret.js
           yarn && yarn build
           rm -rf src/.vuepress/secret.js
