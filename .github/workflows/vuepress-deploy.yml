@@ -34,6 +34,7 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           echo "module.exports={clientId: '${VSSUE_CLIENTID}',clientSecret: '${VSSUE_CLIENTSECRET}'}" > src/.vuepress/secret.js
           yarn && yarn build
+          rm -rf ~/src/.vuepress/secret.js
           cd src/.vuepress/dist
           git config --global user.name "${GITHUB_NAME}"
           git config --global user.email "${GITHUB_EMAIL}"
@@ -41,3 +42,4 @@ jobs:
           git add -A
           git commit -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %Z")"
           git push -f git@github.com:${GITHUB_NAME}/${GITHUB_NAME}.github.io.git master:gh-pages
+          rm -rf ~/.ssh/known_hosts
