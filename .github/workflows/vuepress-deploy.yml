@@ -4,8 +4,6 @@ on:
     branches:
       - master
 env:
-  LANG: zh_CN.UTF-8
-  LANGUAGE: zh_CN
   TZ: Asia/Shanghai
 jobs:
   build-and-deploy:
@@ -38,10 +36,10 @@ jobs:
           git config user.name "${GITHUB_NAME}"
           git config user.email "${GITHUB_EMAIL}"
           git add -A
-          git commit -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %Z")"
+          git commit -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %:z")"
           mkdir -p ~/.ssh/
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
           git push -f git@github.com:${GITHUB_NAME}/${GITHUB_NAME}.github.io.git master:gh-pages
           rm -rf ~/.ssh/known_hosts
