@@ -32,15 +32,19 @@ jobs:
           echo "module.exports={clientId: '${VSSUE_CLIENTID}',clientSecret: '${VSSUE_CLIENTSECRET}'}" > src/.vuepress/secret.js
           yarn build
           rm -rf src/.vuepress/secret.js
-          cd src/.vuepress/dist
-          git init
+          cd src/.vuepress/
+          rm -rf gh-pages
+          git clone -q --depth=1 -b gh-pages git@gitee.com:qcyblm/qcyblm.github.io.git gh-pages
+          cd gh-pages
           git config user.name "${GITHUB_NAME}"
           git config user.email "${GITHUB_EMAIL}"
+          rm -rf *
+          cp -a ../dist/* .
           git add -A
           git commit -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %:z")"
           mkdir -p ~/.ssh/
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git push -f "${GITHUB_ORIGIN}" master:gh-pages
+          git push
           rm -rf ~/.ssh/known_hosts

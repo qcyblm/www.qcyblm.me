@@ -11,3 +11,6 @@ src/.vuepress/dist
 
 # Hide private file information
 secret.js
+
+# The branch file
+gh-pages
