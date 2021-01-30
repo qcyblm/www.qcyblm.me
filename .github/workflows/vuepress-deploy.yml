@@ -36,12 +36,11 @@ jobs:
           git init
           git config user.name "${GITHUB_NAME}"
           git config user.email "${GITHUB_EMAIL}"
-          git remote add origin "${GITHUB_ORIGIN}"
           git add -A
           git commit -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %:z")"
           mkdir -p ~/.ssh/
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git push -f master:gh-pages
+          git push -f "${GITHUB_ORIGIN}" master:gh-pages
           rm -rf ~/.ssh/known_hosts
