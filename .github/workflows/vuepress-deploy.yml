@@ -34,7 +34,7 @@ jobs:
           rm -rf src/.vuepress/secret.js
           cd src/.vuepress/
           rm -rf gh-pages
-          git clone -q --depth=1 -b gh-pages git@gitee.com:qcyblm/qcyblm.github.io.git gh-pages
+          git clone -q --depth=1 -b gh-pages "${GITHUB_ORIGIN}" gh-pages
           cd gh-pages
           git config user.name "${GITHUB_NAME}"
           git config user.email "${GITHUB_EMAIL}"
