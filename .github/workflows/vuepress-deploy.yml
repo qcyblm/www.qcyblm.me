@@ -43,5 +43,5 @@ jobs:
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git push master:gh-pages
+          git push -f master:gh-pages
           rm -rf ~/.ssh/known_hosts
