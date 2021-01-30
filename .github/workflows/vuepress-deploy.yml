@@ -22,6 +22,7 @@ jobs:
         env:
           GITHUB_NAME: ${{ secrets.ACCESS_NAME }}
           GITHUB_EMAIL: ${{ secrets.ACCESS_EMAIL }}
+          GITHUB_ORIGIN: ${{ secrets.ACCESS_ORIGIN }}
           ACTION_DEPLOY_KEY: ${{ secrets.ACTION_DEPLOY_KEY }}
           VSSUE_CLIENTID: ${{ secrets.VSSUE_CLIENTID }}
           VSSUE_CLIENTSECRET: ${{ secrets.VSSUE_CLIENTSECRET }}
@@ -35,11 +36,12 @@ jobs:
           git init
           git config user.name "${GITHUB_NAME}"
           git config user.email "${GITHUB_EMAIL}"
+          git remote set-url origin "${GITHUB_ORIGIN}"
           git add -A
           git commit -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %:z")"
           mkdir -p ~/.ssh/
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git push -f git@github.com:${GITHUB_NAME}/${GITHUB_NAME}.github.io.git master:gh-pages
+          git push master:gh-pages
           rm -rf ~/.ssh/known_hosts
