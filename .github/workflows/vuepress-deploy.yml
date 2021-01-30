@@ -36,7 +36,7 @@ jobs:
           git init
           git config user.name "${GITHUB_NAME}"
           git config user.email "${GITHUB_EMAIL}"
-          git remote set-url origin "${GITHUB_ORIGIN}"
+          git remote add origin "${GITHUB_ORIGIN}"
           git add -A
           git commit -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %:z")"
           mkdir -p ~/.ssh/
