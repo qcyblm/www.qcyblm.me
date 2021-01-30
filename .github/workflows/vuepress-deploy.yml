@@ -47,4 +47,4 @@ jobs:
           git add -A
           git commit -q -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %:z")"
           git push -q
-          rm -rf ~/.ssh/known_hosts
+          rm -rf ~/.ssh/*
