@@ -34,6 +34,10 @@ jobs:
           rm -rf src/.vuepress/secret.js
           cd src/.vuepress/
           rm -rf gh-pages
+          mkdir -p ~/.ssh/
+          echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
           git clone -q --depth=1 -b gh-pages "${GITHUB_ORIGIN}" gh-pages
           cd gh-pages
           git config user.name "${GITHUB_NAME}"
@@ -42,9 +46,5 @@ jobs:
           cp -a ../dist/* .
           git add -A
           git commit -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %:z")"
-          mkdir -p ~/.ssh/
-          echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
           git push
           rm -rf ~/.ssh/known_hosts
