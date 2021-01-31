@@ -1,7 +1,7 @@
 const secret = require('./secret')
 module.exports = {
   title: '青春永不落幕',
-  description: '一位静态网站设计爱好者',
+  description: '使用合适的软件和代码来达到最佳效果',
   head: [
     ['meta', { name: 'baidu-site-verification', content: 'code-jNjoWXWohM' }],
     ['link', { rel: 'icon', href: './favicon.ico', type: 'image/x-icon' }],
