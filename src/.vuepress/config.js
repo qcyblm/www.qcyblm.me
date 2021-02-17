@@ -1,4 +1,3 @@
-const secret = require('./secret')
 module.exports = {
   title: '青春永不落幕',
   description: '使用合适的软件和代码来达到最佳效果',
@@ -60,14 +59,6 @@ module.exports = {
     }
   },
   plugins: {
-    '@vssue/vuepress-plugin-vssue': {
-      platform: 'github',
-      owner: 'qcyblm',
-      repo: 'qcyblm.github.io',
-      clientId: secret.clientId,
-      clientSecret: secret.clientSecret,
-      locale: 'zh'
-    },
     '@vuepress/last-updated': {
       transformer: (timestamp, lang) => {
         const moment = require('moment')

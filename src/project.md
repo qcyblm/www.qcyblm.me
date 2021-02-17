@@ -57,5 +57,3 @@
 ```
 ```
 :::
-
-<Vssue :title="$title" />

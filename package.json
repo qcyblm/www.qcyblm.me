@@ -20,9 +20,6 @@
     "vuepress": "^1.8.0"
   },
   "dependencies": {
-    "@vssue/api-github-v3": "^1.4.7",
-    "@vssue/vuepress-plugin-vssue": "^1.4.7",
-    "busuanzi.pure.js": "^1.0.3",
     "moment": "^2.29.1"
   }
 }

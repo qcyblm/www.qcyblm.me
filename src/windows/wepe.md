@@ -34,5 +34,3 @@
 意见与建议邮箱：[mail@wepe.com.cn](mailto:mail@wepe.com.cn)  
   
 文章出处：[微PE工具箱](http://www.wepe.com.cn/)
-
-<Vssue :title="$title" />
