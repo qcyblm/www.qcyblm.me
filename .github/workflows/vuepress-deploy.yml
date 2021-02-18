@@ -24,14 +24,10 @@ jobs:
           GITHUB_EMAIL: ${{ secrets.ACCESS_EMAIL }}
           GITHUB_ORIGIN: ${{ secrets.ACCESS_ORIGIN }}
           ACTION_DEPLOY_KEY: ${{ secrets.ACTION_DEPLOY_KEY }}
-          VSSUE_CLIENTID: ${{ secrets.VSSUE_CLIENTID }}
-          VSSUE_CLIENTSECRET: ${{ secrets.VSSUE_CLIENTSECRET }}
         run: |
           yarn config set registry https://r.npm.taobao.org
           yarn
-          echo "module.exports={clientId: '${VSSUE_CLIENTID}',clientSecret: '${VSSUE_CLIENTSECRET}'}" > src/.vuepress/secret.js
           yarn build
-          rm -rf src/.vuepress/secret.js
           cd src/.vuepress/
           rm -rf gh-pages
           mkdir -p ~/.ssh/
