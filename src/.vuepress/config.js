@@ -57,14 +57,5 @@ module.exports = {
       licensedLink: 'https://github.com/qcyblm/qcyblm.github.io/blob/master/LICENSE',
       licensed: 'MIT',
     }
-  },
-  plugins: {
-    '@vuepress/last-updated': {
-      transformer: (timestamp, lang) => {
-        const moment = require('moment')
-        moment.locale(lang)
-        return moment(timestamp).format("llll Z")
-      }
-    }
   }
 }
