@@ -19,14 +19,27 @@ jobs:
         with:
           node-version: 15.x
       - name: build and deploy
+        env:
+          NAME: ${{ secrets.ACCESS_NAME }}
+          EMAIL: ${{ secrets.ACCESS_EMAIL }}
+          ORIGIN: ${{ secrets.ACCESS_ORIGIN }}
         run: |
           yarn config set registry https://r.npm.taobao.org
           yarn
           yarn build
           cd src/.vuepress/dist
           git init
-          git config user.name "${ACCESS_NAME}"
-          git config user.email "${ACCESS_EMAIL}"
+          git config user.name "$NAME"
+          git config user.email "$EMAIL"
           git add -A
           git commit -q -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %:z")"
-          git push -f ${ACCESS_ORIGIN} master:gh-pages
+          git push -f "$ORIGIN" master:gh-pages
+
+
+
+
+
+
+
+
+
