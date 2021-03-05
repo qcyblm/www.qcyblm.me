@@ -32,5 +32,5 @@ jobs:
           git config user.name "$NAME"
           git config user.email "$EMAIL"
           git add -A
-          git commit -q -m "Auto Deploy from Github Actions: $(date)"
+          git commit -q -m "Auto Deploy from Github Actions: $(date +"%Y-%m-%d %H:%M")"
           git push -f "$ORIGIN" master:gh-pages
