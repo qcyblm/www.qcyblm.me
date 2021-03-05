@@ -65,5 +65,6 @@ module.exports = {
         moment.locale(lang)
         return moment(timestamp).format("YYYY-MM-DD HH-mm")
       }
+    }
   }
 }
