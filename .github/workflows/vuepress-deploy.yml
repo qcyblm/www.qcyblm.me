@@ -25,8 +25,8 @@ jobs:
           yarn build
           cd src/.vuepress/dist
           git init
-          git config user.name "${{ secrets.ACCESS_NAME }}"
-          git config user.email "${{ secrets.ACCESS_EMAIL }}"
+          git config user.name "${ACCESS_NAME}"
+          git config user.email "${ACCESS_EMAIL}"
           git add -A
           git commit -q -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %:z")"
-          git push -f ${{ secrets.ACCESS_ORIGIN }} master:gh-pages
+          git push -f ${ACCESS_ORIGIN} master:gh-pages
