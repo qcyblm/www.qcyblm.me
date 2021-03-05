@@ -19,28 +19,14 @@ jobs:
         with:
           node-version: 15.x
       - name: build and deploy
-        env:
-          GITHUB_NAME: ${{ secrets.ACCESS_NAME }}
-          GITHUB_EMAIL: ${{ secrets.ACCESS_EMAIL }}
-          GITHUB_ORIGIN: ${{ secrets.ACCESS_ORIGIN }}
-          ACTION_DEPLOY_KEY: ${{ secrets.ACTION_DEPLOY_KEY }}
         run: |
           yarn config set registry https://r.npm.taobao.org
           yarn
           yarn build
-          cd src/.vuepress/
-          rm -rf gh-pages
-          mkdir -p ~/.ssh/
-          echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git clone -q --depth=1 -b gh-pages "${GITHUB_ORIGIN}" gh-pages
-          cd gh-pages
-          git config user.name "${GITHUB_NAME}"
-          git config user.email "${GITHUB_EMAIL}"
-          rm -rf *
-          cp -a ../dist/* .
+          cd src/.vuepress/dist
+          git init
+          git config user.name "${{ secrets.ACCESS_NAME }}"
+          git config user.email "${{ secrets.ACCESS_EMAIL }}"
           git add -A
           git commit -q -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %:z")"
-          git push -q
-          rm -rf ~/.ssh/*
+          git push -f ${{ secrets.ACCESS_ORIGIN }} master:gh-pages
