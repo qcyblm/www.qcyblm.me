@@ -34,12 +34,3 @@ jobs:
           git add -A
           git commit -q -m "Auto Deploy from Github Actions: $(date +"%Y年%m月%d日 %T %:z")"
           git push -f "$ORIGIN" master:gh-pages
-
-
-
-
-
-
-
-
-
